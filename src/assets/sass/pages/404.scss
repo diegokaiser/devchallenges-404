@@ -1,0 +1,84 @@
+.page {
+  &__notFound {
+    align-items: center;
+    display: flex;
+    font-family: $spaceMono;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+    position: relative;
+    width: get-width(15, 17);
+    @include mobile480 {
+      padding-bottom: 0;
+    }
+    @include tablet990 {
+      flex-direction: row;
+      justify-content: space-between;
+      width: get-width(29, 31);
+    }
+    &-picture {
+      display: flex;
+      flex-direction: column;
+      width: get-width(15, 15);
+      @include mobile480 {
+        width: get-width(13, 29);
+      }
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+    &-title {
+      font-family: $inconsolata;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: -0.12rem;
+      line-height: normal;
+      padding: 2.5rem 0;
+      text-transform: uppercase;
+      top: 0;
+      @include mobile480 {
+        position: absolute;
+      }
+    }
+    &-text {
+      width: get-width(15, 15);
+      @include mobile480 {
+        width: get-width(13, 29);
+      }
+      h1 {
+        color: #333;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.105rem;
+        @include mobile480 {
+          font-size: 4rem;
+          letter-spacing: -0.14rem;
+        }
+      }
+      p {
+        color: #4F4F4F;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.03938rem;
+        line-height: normal;
+        margin-top: 0;
+        margin-bottom: 4rem;
+        width: get-width(15, 15);
+        @include mobile480 {
+          font-size: 1.5rem;
+          letter-spacing: -0.0525rem;
+        }
+      }
+      a {
+        @include btnSecondary;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@mixin btnSecondary {
+  align-items: center;
+  background-color: #333;
+  border: 2px solid #333;
+  box-sizing: content-box;
+  color: #FFF;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  height: 4.25rem;
+  line-height: normal;
+  letter-spacing: -0.03063rem;
+  padding: 0 2.69rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .35s ease;
+  &:hover {
+    background-color: #FFF;
+    color: #333;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf5517e7.css",
+    "main.js": "/static/js/main.9ebb0204.js",
+    "static/media/Scarecrow.png": "/static/media/Scarecrow.633430866163f4a7e8f2.png",
+    "index.html": "/index.html",
+    "main.bf5517e7.css.map": "/static/css/main.bf5517e7.css.map",
+    "main.9ebb0204.js.map": "/static/js/main.9ebb0204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf5517e7.css",
+    "static/js/main.9ebb0204.js"
+  ]
+}
